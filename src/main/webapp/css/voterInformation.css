@@ -1,0 +1,140 @@
+
+/*  Navigation */
+nav div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00589C;
+    font-size: 14px;
+    color: white;
+}
+
+nav div ul li {
+    padding-right: 16px;
+}
+
+nav div ul li a href{
+}
+
+.letterColor {
+	color: white;
+}
+
+.nav.navbar-nav.navbar-right li a {
+	color: white !important;
+}
+
+.nav.navbar-nav li a {
+	color: white !important;
+	background-color: #00589C !important;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+  background-color: #70addd;
+}
+
+.nav.navbar-nav li a:hover {
+  background-color: #70addd !important;
+}
+
+/* State Information */
+.state-dropdown {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#us-map{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+path:hover, circle:hover {
+  stroke: #ffffff !important;
+  stroke-width:4px;
+  stroke-linejoin: round;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #A9A9A9 !important;
+  cursor: default;
+}
+#info-box {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 2px solid #BF0A30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+
+
+/* Page Footer */
+.containerNew {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-evenly;
+  display: inline-flex;
+  flex-direction: row;
+  background-color: #00589C;
+  font-size: 14px;
+  color: white;
+  background-size: 100% 100%;
+  padding: 15px;
+}
+
+.mainDropMenu {
+  position: absolute;
+ <!-- width: 100%; -->
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  font-size: 12px;
+  background-size: 100% 100%;
+  padding: 15px;
+  margin: 25px;
+}
+
+
+.row {
+	flex: 1;
+}
+/* .headerItem1 {
+	margin-right: auto;
+}
+ */
+
+a {
+    color: black;
+    
+}
+
+img{
+	
+}
+
+#btnSearch {
+    background-color: #0000ff;
+    color: #fff;
+    cursor: pointer;
+    border:none;
+}
+
+
+
+#btnSearch:hover {
+    border: none;
+    background:red;
+    box-shadow: 0px 0px 1px #777;
+}
+
